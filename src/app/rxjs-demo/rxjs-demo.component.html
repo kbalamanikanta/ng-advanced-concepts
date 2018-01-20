@@ -1,0 +1,19 @@
+<p>
+  rxjs-demo works!
+</p>
+
+<div>Time: {{currentTime | date:'HH:mm:ss' }}</div>
+
+<div>
+  <h3>Message Observer</h3>
+  <div>
+    Current Message: {{currentMessage}}
+  </div>
+</div>
+
+<div>
+  <h3>Message Observer Async Pipe</h3>
+  <div>
+    Current Message: {{messageObserver | async}}
+  </div>
+</div>
