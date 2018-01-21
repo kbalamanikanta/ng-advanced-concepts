@@ -16,6 +16,7 @@ export class SubjectDemoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.behaviorSubject.next(10);
     this.behaviorSubject.next(20);
 
     this.behaviorSubject.subscribe(data => {
